@@ -1,7 +1,7 @@
 # 深圳 Maker 學習之旅
 
 今天(2015.2.4)的目標為串接四軸飛行器所需使用到的Block。而此篇文章為三軸陀螺儀(Grove - 3-Axis Digital Gyro)Block的使用方法，首先讓大家看一下陀螺儀的外貌，如下圖
-![陀螺儀](http://i.imgur.com/KaswVKz.jpg)
+[陀螺儀](http://i.imgur.com/eUKW5h9.jpg)
 
 
 ## 陀螺儀用處
