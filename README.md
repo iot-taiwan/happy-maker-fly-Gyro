@@ -1,6 +1,6 @@
 # 深圳 Maker 學習之旅
 
-今天(2015.2.4)的目標為串接四軸飛行器所需使用到的Block。而此篇文章為三軸陀螺儀(Grove - 3-Axis Digital Gyro)Block的使用方法，首先讓大家看一下陀螺儀的外貌，如下圖
+今天(2015.2.4)的目標為串接四軸飛行器所需使用到的 Block。而此篇文章為三軸陀螺儀(Grove - 3-Axis Digital Gyro) Block 的使用方法，首先讓大家看一下陀螺儀的外貌，如下圖
 ![陀螺儀](http://i.imgur.com/eUKW5h9.jpg)
 
 
@@ -10,8 +10,8 @@
 
 ## 準備工作
 
-這次的Block整合是要將陀螺儀的 Sensor Data 推送至 WebSocket。
-首先第一步，我們透過mbed LPC 1768 版子將三軸陀螺儀(Grove - 3-Axis Digital Gyro)與Wify模組串接起，如下圖：
+這次的 Block 整合是要將陀螺儀的 Sensor Data 推送至 WebSocket。
+首先第一步，我們透過 ARM mbed LPC 1768 版子將三軸陀螺儀(Grove - 3-Axis Digital Gyro)與Wify模組串接起，如下圖：
 ![Wifi + 陀螺儀](http://i.imgur.com/wZotuUa.jpg)
 
 ## 開始實作
@@ -19,7 +19,7 @@
 
 * Websocket channel server 服務，本書將使用 *sockets.mbed.org*
 * ARM mbed 的 Websocket client 實作
-* ARM mbed 與 Grove - 3-Axis Digital Gyro實作
+* ARM mbed 與 Grove - 3-Axis Digital Gyro 實作
 
 ```
 #include "mbed.h"
